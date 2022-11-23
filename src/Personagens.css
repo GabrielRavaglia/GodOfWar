@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Belleza&family=Philosopher&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Person{
+background-image: url('./imagens/runas2.png');
+height: 600px;
+background-size: 100%;  
+}
+
+.person_tittle{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.person_tittle h1{
+    font-size: 40px;    
+}
+
+.Persons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.Persons h2{
+    font-size: 17px;
+}
+
+.personsimg{
+    width: 100%;    
+}
+
+.imgbox{
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}

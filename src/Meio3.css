@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Belleza&family=Philosopher&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Meio3{
+    background-image: url('./imagens/runas2.png');
+    height: 600px;
+    background-size: 100%;           
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.meio3_left{
+    display: flex;
+    flex-direction: column;  
+    gap: 30px;  
+    font-family: 'Rubik', sans-serif; 
+}
+
+.meio3_left h2{
+    font-size: 80px;
+    font-family: 'Belleza', sans-serif;
+}
+
+.meio3_left h3{
+    font-size: 14px;
+}
+
+.meio3_right img{
+    height: 500px;
+    padding-top: 40px;
+}

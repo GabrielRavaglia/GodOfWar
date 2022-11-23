@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 80px;
+}
+
+.logo{
+    margin-left: 5%;
+}
+.logo img{
+    height: 60px;
+}
+
+.logo2 img{
+    height: 60px;
+}
+
+.plataformas{
+    display: flex;
+    color:white;
+    margin-right: 5%;
+    gap: 5px;
+    font-size: 18px;   
+}
+
+.textplataformas{
+    font-family: 'Roboto', sans-serif;
+}
+
+.plataforma{
+    border: 2px solid white;
+    font-family: 'Rubik', sans-serif;    
+}

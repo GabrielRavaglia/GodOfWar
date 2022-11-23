@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Belleza&family=Philosopher&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.meio2{
+    background-image: url('./imagens/banner2.png');
+    height: 600px;
+    background-size: 100%;    
+    padding-top: 100px;    
+    display: flex;   
+    justify-content: center;
+    gap: 80px;
+}
+
+.meio2_left{
+    display: flex;
+    flex-direction: column;  
+    gap: 30px;  
+    font-family: 'Rubik', sans-serif; 
+}
+
+.meio2_left h2{
+    font-size: 60px;
+    font-family: 'Belleza', sans-serif;
+}
+
+.meio2_left h3{
+    font-size: 18px;
+}
+
+.meio2_right img{
+    height: 400px;
+}
+
+.santaplay{
+display: flex;
+gap: 15px;
+}
+
+.santaplay img{
+    max-height: 60px;
+}
+
+h4{
+    color: white;
+}
+
