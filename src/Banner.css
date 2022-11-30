@@ -4,11 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Belleza&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Belleza&family=Philosopher&display=swap');
 
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+
+
 
 .meio{
     background-image: url('./imagens/banner.png');
@@ -71,6 +75,7 @@ h3{
     font-family: 'Rubik', sans-serif;       
     font-weight: bold;
     color:  white;
+    text-decoration: none;
  }
 
  .buy p{
@@ -96,7 +101,7 @@ height: 50px;
 .banner_right{
     display: flex;
     flex-direction: column;
-    margin-left: 18%;
+    margin-left: 20%;
     margin-top: 9%;   
     gap: 25px; 
 }
@@ -111,4 +116,375 @@ height: 50px;
     color: white;
     font-family: 'Rubik', sans-serif; 
     font-size: 12px;
+}
+
+.criarconta{
+    display:none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;   
+    font-family: 'Rubik', sans-serif; 
+    color: black;
+  }
+
+  .criarconta h1{
+    color: black;
+    font-size: 20px;
+  }
+
+  .criarconta form{
+    position: absolute;
+    margin-left: 37.5%;
+    margin-top: 12%;
+    background-color: white;   
+    padding: 20px;
+    width: 25%;
+    height: 40%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;   
+    text-align: left;
+    color: black;    
+    border-radius: 10px;    
+  }
+
+  
+
+  .botaosaircriarconta{
+    width: 5%;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    cursor: pointer;
+    color: black;
+  }
+
+  @media screen and (max-width: 780px) {
+    .meio{
+        background-image: url('./imagens/banner.png');
+        height: 750px;
+        background-size: 100%;                        
+        background-repeat: no-repeat;
+        background-color: black;   
+        display: flex;
+        flex-direction: column;  
+        padding-left: 30px;
+        padding-top: 120px;         
+    }
+
+    .meio video{
+        width: 80%;
+        height: 180px;
+    }
+
+    h1{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    h2{
+        color: white;
+        font-family: 'Belleza', sans-serif;
+        font-size: 50px;
+    }
+    
+    h3{
+        color: white;
+        font-family: 'Rubik', sans-serif;  
+        font-size: 10px;
+    }
+
+    .banner_left{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 20px;
+     }
+    
+     .store{
+        display: flex;    
+        font-size: 12px;   
+        margin-top: 20px; 
+     }
+    
+     .price{
+        background-color: white;
+        width: 150px;
+        height: 30px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;       
+        font-weight: bold;
+     }
+    
+     .price p{
+        margin-top: 10px;
+     }
+    
+     .buy{
+        background-color: #bf1f23;
+        width: 150px;
+        height: 30px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;       
+        font-weight: bold;
+        color:  white;
+        text-decoration: none;
+     }
+    
+     .buy p{
+        margin-top: 10px;
+    }
+    
+    .n18{
+        display: flex;
+        gap: 20px;
+        color: white;
+        font-family: 'Rubik', sans-serif;             
+    }
+    
+    .n18 img{
+    height: 30px;
+    }
+    
+    .n18 p {
+        font-size: 11px;
+        
+    }
+    
+    .banner_right{
+        display: flex;
+        flex-direction: column;                    
+        margin-top: 9%;   
+        margin-left: 10%;
+    }
+
+    .banner_right p{
+        margin-right: 20%;
+    }
+    
+    .trailerjogo{
+        border: 2px solid white;
+        padding-top: 0px;
+    }
+    
+    .trailer{
+        text-align: right;
+        color: white;
+        font-family: 'Rubik', sans-serif; 
+        font-size: 10px;
+    }
+    
+    
+    .criarconta{
+        display:none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;   
+        font-family: 'Rubik', sans-serif; 
+        color: black;
+      }
+    
+      .criarconta h1{
+        color: black;
+        font-size: 20px;
+      }
+    
+      .criarconta form{
+        position: absolute;
+        margin-left: 14%;
+        margin-top: 12%;
+        background-color: white;   
+        padding: 20px;
+        width: 60%;
+        height: 30%;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;   
+        text-align: center;
+        color: black;    
+        border-radius: 10px;    
+      }
+    
+      
+    
+      .botaosaircriarconta{
+        width: 5%;
+        position: absolute;
+        left: 90%;
+        top: 2%;
+        cursor: pointer;
+        color: black;
+      }
+    
+
+    }
+
+
+  @media screen and (min-width: 781px) and (max-width:1023px) {
+    .meio{
+        background-image: url('./imagens/banner.png');
+        height: 900px;
+        background-size: 100%;                       
+        background-repeat: no-repeat;
+        background-color: black;  
+        display: flex;
+        flex-direction: column;    
+        align-items: center;     
+        padding-left: 30px;
+        padding-top: 120px;      
+    }
+
+
+    h1{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    h2{
+        color: white;
+        font-family: 'Belleza', sans-serif;
+        font-size: 90px;
+    }
+    
+    h3{
+        color: white;
+        font-family: 'Rubik', sans-serif;  
+        font-size: 18px;
+    }
+
+    .banner_left{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        gap: 10px;
+        padding-top: 20px;
+     }
+    
+     .store{
+        display: flex;    
+        font-size: 15px;   
+        margin-top: 20px; 
+     }
+    
+     .price{
+        background-color: white;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;       
+        font-weight: bold;
+     }
+    
+     .price p{
+        margin-top: 15px;
+     }
+    
+     .buy{
+        background-color: #bf1f23;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;       
+        font-weight: bold;
+        color:  white;
+        text-decoration: none;
+     }
+    
+     .buy p{
+        margin-top: 15px;
+    }
+    
+    .n18{
+        display: flex;
+        gap: 20px;
+        color: white;
+        font-family: 'Rubik', sans-serif; 
+        align-items: center;     
+    }
+    
+    .n18 img{
+    height: 50px;
+    }
+    
+    .n18 p {
+        font-size: 14px;
+    }
+    
+    .banner_right{
+        display: flex;
+        flex-direction: column;    
+        margin-right: 200px;
+        margin-top: 9%;   
+        gap: 25px; 
+    }
+    
+    .trailerjogo{
+        border: 2px solid white;
+        padding-top: 0px;
+    }
+    
+    .trailer{
+        text-align: right;
+        color: white;
+        font-family: 'Rubik', sans-serif; 
+        font-size: 12px;
+    }
+    
+    .criarconta{
+        display:none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;   
+        font-family: 'Rubik', sans-serif; 
+        color: black;
+      }
+    
+      .criarconta h1{
+        color: black;
+        font-size: 25px;
+      }
+    
+      .criarconta form{
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 20%;
+        background-color: white;   
+        padding: 20px;
+        width: 40%;
+        height: 20%;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;   
+        text-align: center;
+        color: black;    
+        border-radius: 10px;    
+      }   
+      
+    
+      .botaosaircriarconta{
+        width: 5%;
+        position: absolute;
+        left: 90%;
+        top: 2%;
+        cursor: pointer;
+        color: black;
+      }
+    
+
 }

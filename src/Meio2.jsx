@@ -12,7 +12,7 @@ function Meio2(){
                 <div className="santaplay">
                     <img src="./src/imagens/santamonica.png"></img>
                     <img src="./src/imagens/playstudios.png"></img>
-                    <h4>De Santa Monica Studios, esta é a sequência da aclamada<br/> versão de Good Of War 3</h4>
+                    <h4>De Santa Monica Studios, esta é a sequência da aclamada<br/> versão de God Of War 3</h4>
                 </div>
             </div>
 

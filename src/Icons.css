@@ -5,6 +5,8 @@
     font-family: 'Rubik', sans-serif;  
 }
 
+
+
 .icons{
     background-color: black;
     color: white;
@@ -53,4 +55,119 @@ height:  40px;
 height:  100%;
 
 }
+
+@media screen and (max-width: 780px) {
+    .icons{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;        
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+        font-size: 10px;
+        width: 100%;
+        height: 250px;
+        gap: 30px;
+    }
+    
+    .icon1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 10%;
+    }
+    
+    .icon1 img{
+    height: 80%;
+    }
+    
+    .icon2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 10%;
+    }
+    
+    .icon2 img{
+    height:  40px;
+    }
+    
+    .icon3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 20%;
+    }
+    
+    .icon3 img{
+    height:  25px;
+    
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+
+    .icons{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;        
+        height: 130px;
+        font-size: 18px;
+      justify-content: center;
+        height: 300px;
+        gap: 30px;
+        padding-top: 80px;
+    }
+    
+    .icon1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 30%;
+    }
+    
+    .icon1 img{
+    height: 80%;
+    }
+    
+    .icon2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 30%;
+    }
+    
+    .icon2 img{
+    height:  50px;
+    }
+    
+    .icon3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height:30%;
+    }
+    
+    .icon3 img{
+    height: 40px;
+    
+    }
+}
+
+
+
 

@@ -10,6 +10,8 @@
     box-sizing: border-box;
 }
 
+
+
 .Person{
 background-image: url('./imagens/runas2.png');
 height: 600px;
@@ -49,4 +51,105 @@ background-size: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+}
+
+@media screen and (max-width: 780px) {
+    .Person{
+        background-image: url('./imagens/runas2.png');
+        height: 2300px;
+        background-size: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 200px;
+        }
+        
+        .person_tittle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 20px;
+            
+        }
+        
+        .person_tittle h1{
+            font-size: 30px;    
+        }
+        
+        .Persons{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            width: 100%;
+        }
+        
+        .Persons h2{
+            font-size: 17px;
+        }
+        
+        .personsimg{
+            width: 100%;    
+        }
+        
+        .imgbox{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;    
+        }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+
+    .Person{
+        background-image: url('./imagens/runas2.png');
+        height: 4000px;
+        background-size: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15%;
+        }
+        
+        .person_tittle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 20px;
+            
+        }
+        
+        .person_tittle h1{
+            font-size: 40px;    
+        }
+        
+        .Persons{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            width: 100%;
+        }
+        
+        .Persons h2{
+            font-size: 30px;
+        }
+        
+        .personsimg{
+            width: 100%;    
+        }
+        
+        .imgbox{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;    
+        }
+
 }

@@ -46,3 +46,41 @@
     border: 2px solid white;
     font-family: 'Rubik', sans-serif;    
 }
+
+@media screen and (max-width: 780px) {
+    .center{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        height: 80px;
+    }
+    .logo{
+        margin-left: 5%;
+    }
+    .logo img{
+        height: 30px;
+    }
+    
+    .logo2 img{
+        height: 30px;
+    }
+    
+    .plataformas{
+        display: flex;
+        color:white;
+        margin-right: 5%;
+        gap: 5px;
+        font-size: 12px;   
+    }
+    
+    .textplataformas{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .plataforma{
+        border: 2px solid white;
+        font-family: 'Rubik', sans-serif;    
+    }
+}
+

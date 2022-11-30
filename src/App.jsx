@@ -7,6 +7,7 @@ import Icons from './Icons'
 import Meio2 from './Meio2'
 import Meio3 from './Meio3'
 import Person from './Personagens'
+import Footer from './Footer'
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Meio2/>
       <Meio3/>
       <Person/>
+      <Footer/>
     </div>
   )
 }
